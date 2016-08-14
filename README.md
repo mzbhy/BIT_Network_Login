@@ -6,7 +6,7 @@
 ## 使用方法
 
 ```bash
-git clone git@github.com:lxalxy/BIT_Network_Login.git
+git clone https://github.com/lxalxy/BIT_Network_Login.git
 cd BIT_Network_Login
 ```
 
