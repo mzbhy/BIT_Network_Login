@@ -30,8 +30,8 @@ headers = {'Referer' : 'http://10.0.0.55:803/srun_portal_pc.php?ac_id=1&',
 
 # 构造Post数据，通过抓包获得
 data = {'action' : 'login',  
-            'username' : '2120140920', 
-            'password' : '120411', 
+            'username' : 'yourid', 
+            'password' : 'yourpassword', 
             'ac_id' : '1',  
             'save_me' : '1',
             'ajax' : '1'
