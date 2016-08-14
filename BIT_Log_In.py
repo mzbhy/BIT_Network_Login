@@ -43,4 +43,4 @@ data = urllib.urlencode(data)
 request = urllib2.Request(posturl, data, headers)
 response = urllib2.urlopen(request)
 text = response.read()
-print text
+print text[0 : text.index(',')]
