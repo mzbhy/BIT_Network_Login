@@ -8,8 +8,10 @@
 ```bash
 git clone git@github.com:lxalxy/BIT_Network_Login.git
 cd BIT_Network_Login
+```
 
 修改脚本内data中的yourid和yourpassword为自己的上网账号和密码
 
 ```bash
 python BIT_Log_In.py
+```
