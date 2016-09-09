@@ -23,6 +23,7 @@ class LoginFrame(wx.Frame):
         self.accountText.SetValue(self.account)
         self.passwordText.SetValue(self.password)
         self.Bind(wx.EVT_BUTTON, self.OnClick, self.button)
+        self.button.SetFocus()
         self.Centre()
 
 
