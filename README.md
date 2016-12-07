@@ -22,18 +22,24 @@ python BIT_Log_In.py
 首先需要安装docopt
 
 ```bash
-sudo pip install docopt==0.6.1
+sudo pip install docopt
 ```
 
 Usage:
 
-    BIT_Log_In_CLI  <ID> <password>
+```bash
+BIT_Log_In_CLI  <ID> <password>
+```
 
 Options:
-    -h,--help        显示帮助菜单
+```bash
+-h,--help        显示帮助菜单
+```
 
 Example:
-    python BIT_Log_In_CLI.py yourid yourpassword
+```bash
+python BIT_Log_In_CLI.py yourid yourpassword
+```
 
 ## To Do
 
